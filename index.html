@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Serenity Adult Family Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Serenity Adult Family Home</h1>
+    <nav id="nav">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul id="nav-list">
+        <li onclick="showTab('home')">Home</li>
+        <li onclick="showTab('services')">Services</li>
+        <li onclick="showTab('about')">About</li>
+        <li onclick="showTab('contact')">Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="tab active">
+      <h2>Welcome</h2>
+      <p>Your loved ones deserve compassion, comfort, and care. Serenity is a peaceful home offering 24/7 personalized attention in a warm setting.</p>
+    </section>
+
+    <section id="services" class="tab">
+      <h2>Our Services</h2>
+      <ul>
+        <li>24-Hour Supervision</li>
+        <li>Medication Management</li>
+        <li>Nutritious Home-Cooked Meals</li>
+        <li>Assistance with Daily Activities</li>
+      </ul>
+    </section>
+
+    <section id="about" class="tab">
+      <h2>About Us</h2>
+      <p>We are a state-licensed adult family home located in a quiet residential neighborhood, staffed by compassionate, certified caregivers with decades of combined experience.</p>
+    </section>
+
+    <section id="contact" class="tab">
+      <h2>Contact</h2>
+      <p>📞 (123) 456-7890<br/>✉ serenitycare@example.com<br/>🏡 123 Peaceful Lane, Wellness, WA</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Serenity AFH. All rights reserved.</p>
+  </footer>
+</body>
+</html>
