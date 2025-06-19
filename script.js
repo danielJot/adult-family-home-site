@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 function toggleMenu() {
   document.getElementById("nav-list").classList.toggle("show");
 }
@@ -9,3 +11,5 @@ function showTab(tabId) {
   document.getElementById(tabId).classList.add('active');
   document.getElementById("nav-list").classList.remove("show");
 }
+  // your showTab and toggleMenu functions here
+});
