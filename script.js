@@ -1,0 +1,11 @@
+function toggleMenu() {
+  document.getElementById("nav-list").classList.toggle("show");
+}
+
+function showTab(tabId) {
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.classList.remove('active');
+  });
+  document.getElementById(tabId).classList.add('active');
+  document.getElementById("nav-list").classList.remove("show");
+}
