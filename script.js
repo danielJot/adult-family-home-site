@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-
 function toggleMenu() {
   document.getElementById("nav-list").classList.toggle("show");
 }
@@ -9,7 +7,7 @@ function showTab(tabId) {
     tab.classList.remove('active');
   });
   document.getElementById(tabId).classList.add('active');
+
+  // Close mobile nav if open
   document.getElementById("nav-list").classList.remove("show");
 }
-  // your showTab and toggleMenu functions here
-});
